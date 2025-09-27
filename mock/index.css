@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: rgb(222, 221, 221);
+
+}
+
+header {
+    background-color: #333;
+    color: skyblue;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#pokemon-list {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 1s ease 0s;
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px black ;
+
+}
+.card h2{
+    margin: 20px 0;
+    border: 2px solid red;
+    
+}
+.types_list{
+    border: 2px solid red;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.types_list aside{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
